@@ -27,16 +27,19 @@
     <!-------------- Home ------------------------------------------>
     <div data-role="page" data-theme="f" data-title="First Care Connects- Health Monitoring Systems" class="fcc-home ui-responsive-panel" id="home" data-url="index.html">
 
- <div data-role="header" class="fcc-header" data-theme="f">
-            <span class="fcc-logo"><a href="index.html">
+        <div data-role="header" class="fcc-header" data-theme="f">
+            <span class="fcc-logo"><a href="#home">
                 <img src="~/img/FCClogo.jpg" title="First Care Connects...Circle of Care_home page" alt="First Care Connects..."></a></span>
-            <a href="#nav-panel" class="fcc-navmenu-link" data-icon="custom" data-iconpos="notext">Navigation</a>
+       <!--     <a href="#nav-panel" class="fcc-navmenu-link" data-icon="custom" data-iconpos="notext">Navigation</a>-->
             <div data-role="controlgroup" data-type="horizontal" class="ui-btn-right">
                 <a href="#add-form" class="inline-buttons" data-role="button" data-inline="true" data-theme="d">sign in</a>
-                <a href="./info-about.html" class="inline-buttons" data-role="button" data-inline="true" data-theme="d">contact</a>
-                <a href="./index.html" class="inline-buttons" data-role="button" data-inline="true" data-theme="d" data-icon="home">Home</a>
+                <a href="#info-physicians" class="inline-buttons" data-role="button" data-inline="true" data-theme="d">caregivers</a>
+                <a href="#info-people" class="inline-buttons" data-role="button" data-inline="true" data-theme="d">patients</a>
+               <a href="#info-about" class="inline-buttons" data-role="button" data-inline="true" data-theme="d">about</a>
+               <a href="#info-works" class="inline-buttons" data-role="button" data-inline="true" data-theme="d">info</a>
+                <a href="#home" class="inline-buttons" data-role="button" data-inline="true" data-theme="d" data-icon="home">Home</a>
             </div>
-</div>
+        </div>
 <div data-role="content" class="type-interior fcc-content">
     <div class="slider-wrapper theme-light">
       <div id="slider" class="nivoSlider">
@@ -51,25 +54,25 @@
    </div>
             <div class="my-page">
                 <ul data-role="listview" data-inset="true" data-theme="d">
-                   <li><a href="~/info-people.html">
+                   <li><a href="#info-people">
                         <img src="~/img/info-people.jpg" />
                         <h2>Independent People</h2>
                         <p>People We Care About</p>
                         <p class="ui-li-aside">Patients ></p>
                     </a></li>  
-                    <li><a href="~/info-physicians.html">
+                    <li><a href="#info-physicians">
                         <img src="~/img/info-doctor.jpg" />
                         <h2>Physicians - Family</h2>
                         <p>Tele-health Monitoring</p>
                         <p class="ui-li-aside">Caregivers ></p>
                     </a></li>
-                     <li><a href="~/info-about.html">
+                     <li><a href="#info-about">
                         <img src="~/img/info-about-01.jpg" />
                         <h2>FCC Circle of Care</h2>
                         <p>Contact</p>
                         <p class="ui-li-aside">About FCC ></p>
                     </a></li>
-                    <li><a href="~/info-about.html">
+                    <li><a href="#info-about">
                         <img src="~/img/info-phone.jpg" />
                         <h2>Healthy Connections</h2>
                         <p>Learn more</p>
@@ -108,24 +111,308 @@
                 </ul>
             </div>
 
+        </div><!-- /content -->
+    </div><!-- /Home -->
+
+        <!------------------------- Start of info-physicians ---------------------------------->
+<div data-role="page" data-theme="d" data-title="First Care Connects"class="fcc-home ui-responsive-panel" id="info-physicians">
+<div data-role="header" class="fcc-header" data-theme="f">
+            <span class="fcc-logo"><a href="#home">
+                <img src="~/img/FCClogo.jpg" title="First Care Connects...Circle of Care_home page" alt="First Care Connects..."></a></span>
+        <!--    <a href="#nav-panel" class="fcc-navmenu-link" data-icon="custom" data-iconpos="notext">Navigation</a>-->
+            <div data-role="controlgroup" data-type="horizontal" class="ui-btn-right">
+                <a href="#add-form" class="inline-buttons" data-role="button" data-inline="true" data-theme="d">sign in</a>
+                <a href="#info-physicians" class="inline-buttons" data-role="button" data-inline="true" data-theme="d">caregivers</a>
+                <a href="#info-people" class="inline-buttons" data-role="button" data-inline="true" data-theme="d">patients</a>
+               <a href="#info-about" class="inline-buttons" data-role="button" data-inline="true" data-theme="d">about</a>
+               <a href="#info-works" class="inline-buttons" data-role="button" data-inline="true" data-theme="d">info</a>
+                <a href="#home" class="inline-buttons" data-role="button" data-inline="true" data-theme="d" data-icon="home">Home</a>
+            </div>
         </div>
-        <!-- /content -->
+
+    <div data-role="content" class="type-interior fcc-content">
+   <h5>Remote Patient Health Monitoring</h5>
+        <div data-role="collapsible" class="collapse" data-theme="f" data-theme-content="f" data-inset="false" data-collapsed="false">
+            <h4>Remote Patient Biometric Monitoring-anywhere</h4>
+            <ul data-role="listview" class="info-page" data-theme="f">
+                <li>
+                    <div class="section group">
+                        <div class="col span_1_of_2 words">
+                            <img src="~/img/dataread-bnr.jpg" />
+                        </div>
+                        <div class="col span_1_of_2">
+                            <h2>Remote Home Monitoring System</h2>
+                            <p>Now - You can allow your patients to rehabilitate at home, and use our First Care Connects remote monitoring products to alert you to abnormalities and collect health data of your patients from anywhere.</p>
+                            <p>
+                                First Care Connects your vital health readings from our health monitoring blood pressure cup, weight scale, and pulse oximeter taken in your home,
+          and seamlessly transmits your vital readings through our wireless hub and internet to the people you select who care and can respond to readings that are out of normal range.
+         Because your assigned First Care Caregiver, along with your doctor and family members, will see and track your health progress, you can live a natural life "at home".  
+                            </p>
+                            <p>The 2net Platform is a cloud-based system designed to be universally-interoperable with different medical devices and applications, enabling end-to-end wireless connectivity while allowing medical device users and their physicians or caregivers to easily access biometric data.</p>
+                      <p> Wearable wireless monitors can mean greater safety, mobility and independence. With updates on a patient’s heart rate, respiration rate, posture and activity and a comprehensive alerting package, caregivers can focus their attention on most critical patients knowing that everyone else is well-monitored. Hospitals can deploy these monitoring solutions to generate a full clinical picture of each patient with an aim at decreasing the need for re-admission and the prevention of what are called “never events” such as falls and bed sores and, with the ability to monitor patients remotely, families can rest easy knowing that they are getting the best clinical care.
+                          </p>   </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div data-role="collapsible" class="collapse" data-theme="f" data-theme-content="f" data-inset="false" data-collapsed="false">
+            <h4>Watch your Patient's Health improve... literally!</h4>
+            <ul data-role="listview" class="info-page" data-theme="f">
+                <li>
+                    <div class="section group">
+                       
+                        <div class="col span_1_of_2">
+                            <h2>Receive an Alert Email, about your Patient's data</h2>
+                            <p>The main goals of this web portal, and the database supporting it, are to: receive, store, and compare data captured by peripheral devices used by the subjects / patients in the home; and to alert the appropriate clinical site of any “Alarms” programmed by the system.</p>
+                            <p>
+                                  </p>
+                        </div> 
+                        <div class="col span_1_of_2">
+                            <img src="~/img/alertscreen.jpg" />
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+</div><!-- /content -->
+</div><!-- /info-physicians -->
+<!------------------------- Start of info-people ---------------------------------->
+<div data-role="page" data-theme="f" data-title="First Care Connects"class="fcc-home ui-responsive-panel" id="info-people">
+      
+<div data-role="header" class="fcc-header" data-theme="f">
+            <span class="fcc-logo"><a href="#home">
+                <img src="~/img/FCClogo.jpg" title="First Care Connects...Circle of Care_home page" alt="First Care Connects..."></a></span>
+          <!--  <a href="#nav-panel" class="fcc-navmenu-link" data-icon="custom" data-iconpos="notext">Navigation</a>-->
+            <div data-role="controlgroup" data-type="horizontal" class="ui-btn-right">
+                <a href="#add-form" class="inline-buttons" data-role="button" data-inline="true" data-theme="d">sign in</a>
+                <a href="#info-physicians" class="inline-buttons" data-role="button" data-inline="true" data-theme="d">caregivers</a>
+                <a href="#info-people" class="inline-buttons" data-role="button" data-inline="true" data-theme="d">patients</a>
+               <a href="#info-about" class="inline-buttons" data-role="button" data-inline="true" data-theme="d">about</a>
+               <a href="#info-works" class="inline-buttons" data-role="button" data-inline="true" data-theme="d">info</a>
+                <a href="#home" class="inline-buttons" data-role="button" data-inline="true" data-theme="d" data-icon="home">Home</a>
+            </div>
+        </div>
+    <div data-role="content" class="type-interior fcc-content">
+   <h5>Circle of Care</h5>
+<div data-role="collapsible" class="collapse" data-theme="f" data-theme-content="f" data-inset="false" data-collapsed="false">
+            <h4>Who is your 'Circle of Care'?</h4>
+            <ul data-role="listview" class="info-page" data-theme="f">
+                <li>
+        <div class="section group">
+            <div class="col span_1_of_2 wide">
+             <img src="~/img/circle-people.jpg" />
+            </div>
+         <div class="col span_1_of_2 words"> 
+           <h4>Circle of Care - the people who care about your health</h4>
+          <p>Our Circle of Care, allows the people who care about your health - your doctor, your caregiver, your family, your friends, to monitor your health vitals... while you relax in and enjoy where you live.<br /> 
+           <br />
+              <p>First Care Connects ‘Circle of Care’ services will designate our ‘Virtual Caregiver’, as your professional responder to manage your affordable monitoring devices. </p>
+         <p>First Care Connects your vital health readings from our health monitoring blood pressure cup, weight scale, and pulse oximeter taken in your home,
+           and seamlessly transmits your vital readings through our wireless hub and internet to the people you select who care and can respond to readings that are out of normal range.
+           Because your assigned First Care Caregiver, along with your doctor and family members, will see and track your health progress, you can live a natural life "at home".  
+          </p>
+        </div>
+      </div>
+     </li>
+    </ul>
+</div>
+        <div data-role="collapsible" class="collapse" data-theme="f" data-theme-content="f" data-inset="false" data-collapsed="false">
+            <h4>Better Health at Home, while lowering Medical Costs</h4>
+            <ul data-role="listview" class="info-page" data-theme="f">
+                <li>
+                    <div class="section group even">
+                        <div class="col span_1_of_2 words">
+                            <h2>Circle of Care - </h2>
+                            <p>Our Circle of Care, allows the people who care about your health - your doctor, your caregiver, your family, your friends, to monitor your health vitals... while you relax in and enjoy where you live.
+                            </p>
+                             <p>First Care Connects your vital health readings from our health monitoring blood pressure cup, weight scale, and pulse oximeter taken in your home,
+          and seamlessly transmits your vital readings through our wireless hub and internet to the people you select who care and can respond to readings that are out of normal range.
+          Because your assigned First Care Caregiver, along with your doctor and family members, will see and track your health progress, you can live a natural life "at home".  
+                             </p>
+                        </div>
+                        <div class="col span_1_of_2">
+                            <img src="~/img/info-caregiver-01.jpg" />
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+<div data-role="collapsible" class="collapse" data-theme="f" data-theme-content="f" data-inset="false" data-collapsed="false">
+            <h4>How does it actually work</h4>
+            <ul data-role="listview" class="info-page" data-theme="f">
+                <li>
+        <div class="section group">
+            <div class="col span_1_of_2 wide">
+                <img src="~/img/dataread-bnr.jpg" />
+            </div>
+         <div class="col span_1_of_2 words"> 
+           <h4>Enjoy the Convenience of Home Medical Monitoring</h4>
+          <p>Our Circle of Care, allows the people who care about your health - your doctor, your caregiver, your family, your friends, to monitor your health vitals... while you relax in and enjoy where you live.<br /> 
+           <br />
+         <p>First Care Connects your vital health readings from our health monitoring blood pressure cup, weight scale, and pulse oximeter taken in your home,
+           and seamlessly transmits your vital readings through our wireless hub and internet to the people you select who care and can respond to readings that are out of normal range.
+           Because your assigned First Care Caregiver, along with your doctor and family members, will see and track your health progress, you can live a natural life "at home".  
+          </p>
+        </div>
+      </div>
+     </li>
+    </ul>
+</div>
+</div><!-- /content -->
+</div><!-- /info-patients -->
+
+<!------------------------- Start of info-about ---------------------------------->
+<div data-role="page" data-theme="f" data-title="First Care Connects"class="fcc-home ui-responsive-panel" id="info-about">
+      
+<div data-role="header" class="fcc-header" data-theme="f">
+            <span class="fcc-logo"><a href="#home">
+                <img src="~/img/FCClogo.jpg" title="First Care Connects...Circle of Care_home page" alt="First Care Connects..."></a></span>
+       <!--     <a href="#nav-panel" class="fcc-navmenu-link" data-icon="custom" data-iconpos="notext">Navigation</a>-->
+            <div data-role="controlgroup" data-type="horizontal" class="ui-btn-right">
+                <a href="#add-form" class="inline-buttons" data-role="button" data-inline="true" data-theme="d">sign in</a>
+                <a href="#info-physicians" class="inline-buttons" data-role="button" data-inline="true" data-theme="d">caregivers</a>
+                <a href="#info-people" class="inline-buttons" data-role="button" data-inline="true" data-theme="d">patients</a>
+               <a href="#info-about" class="inline-buttons" data-role="button" data-inline="true" data-theme="d">about</a>
+               <a href="#info-works" class="inline-buttons" data-role="button" data-inline="true" data-theme="d">info</a>
+                <a href="#home" class="inline-buttons" data-role="button" data-inline="true" data-theme="d" data-icon="home">Home</a>
+            </div>
+        </div>
+    <div data-role="content" class="type-interior fcc-content">
+   <h5>First Care Connects ... Your Circle of Care</h5>
+   <div data-role="collapsible" class="collapse" data-theme="f" data-theme-content="f" data-inset="false" data-collapsed="false">
+            <ul data-role="listview" class="info-page" data-theme="f">
+                <li>
+                <div class="section group">
+                    <div class="col span_1_of_2">
+                        <img src="~/img/grandson.jpg" />
+                    </div>
+                    <div class="col span_1_of_2 words">
+                        <h2>Circle of Care ... the people you trust</h2>
+                        <p>First Care Connects ... a circle of people, who care about your Healthy Home Living.</p>
+                        <br />
+                        <p>
+                            First Care Connects your vital health readings from our health monitoring blood pressure cup, weight scale, and pulse oximeter taken in your home,
+          and seamlessly transmits your vital readings through our wireless hub and internet to the people you select who care and can respond to readings that are out of normal range.
+         Because your assigned First Care Caregiver, along with your doctor and family members, will see and track your health progress, you can live a natural life "at home".  
+                        </p>
+                    </div>
+                </div>
+            </li>
+            </ul>
+       </div>
+        <div class="section group even">
+            <div class="col span_1_of_2 words">
+                <h4>Circle of Connections...
+                            <br />
+                    Health staff and Caregivers</h4>
+                <form class="Contactform" data-theme="b">
+                    <p>
+                        phone: 773-551-3633<br />
+                        email: rogerwalsh@firstcareusa.com
+                    </p>
+                    <label for="name" class="ui-hidden-accessible">Name</label>
+                    <input type="text" name="name" id="Contact-name" placeholder="name" value="" data-clear-btn="true" data-mini="true">
+                    <label for="email" class="ui-hidden-accessible">Email</label>
+                    <input type="email" name="email" id="Contact-email" placeholder="email" value="" data-clear-btn="true" data-mini="true">
+                    <label for="tel" class="ui-hidden-accessible">Phone</label>
+                    <input type="tel" name="tel" id="Contact-phone" placeholder="Phone" value="" data-clear-btn="true" data-mini="true">
+                    <label for="Contact-comments" class="ui-hidden-accessible">Comments</label>
+                    <textarea cols="40" rows="8" name="Contact-comments" id="Contact-comments" class="ui-hidden-accessible" placeholder="Comments" data-clear-btn="true"></textarea>
+                    <div class="ui-grid-a">
+                        <div class="ui-block-a"><a href="#" data-rel="close" data-role="button" data-theme="b" data-mini="true">Cancel</a></div>
+                        <div class="ui-block-b"><a href="http://firstcareconnects.com/Vitals/Dashboard" data-rel="close" data-role="button" data-theme="b" data-mini="true">Save</a></div>
+                    </div>
+                </form>
+            </div>
+            <div class="col span_1_of_2 picx">
+                <img src="~/img/Roger.png" />
+            </div>
+        </div>
+        <div class="section group">
+            <div class="col span_1_of_2">
+            </div>
+            <div class="col span_1_of_2">
+            </div>
+        </div>
+</div><!-- /content -->
+</div><!-- /Info-about -->
+
+
+    <!------------------------- Start of info-Works ---------------------------------->
+<div data-role="page" data-theme="f" data-title="First Care Connects"class="fcc-home ui-responsive-panel" id="info-works">
+      
+<div data-role="header" class="fcc-header" data-theme="f">
+            <span class="fcc-logo"><a href="#home">
+                <img src="~/img/FCClogo.jpg" title="First Care Connects...Circle of Care_home page" alt="First Care Connects..."></a></span>
+       <!--     <a href="#nav-panel" class="fcc-navmenu-link" data-icon="custom" data-iconpos="notext">Navigation</a>-->
+            <div data-role="controlgroup" data-type="horizontal" class="ui-btn-right">
+                <a href="#add-form" class="inline-buttons" data-role="button" data-inline="true" data-theme="d">sign in</a>
+                <a href="#info-physicians" class="inline-buttons" data-role="button" data-inline="true" data-theme="d">caregivers</a>
+                <a href="#info-people" class="inline-buttons" data-role="button" data-inline="true" data-theme="d">patients</a>
+               <a href="#info-about" class="inline-buttons" data-role="button" data-inline="true" data-theme="d">about</a>
+               <a href="#info-works" class="inline-buttons" data-role="button" data-inline="true" data-theme="d">info</a>
+                <a href="#home" class="inline-buttons" data-role="button" data-inline="true" data-theme="d" data-icon="home">Home</a>
+            </div>
+        </div>
+    <div data-role="content" class="type-interior fcc-content">
+   <h5>How Do Health Readings get to my Doctor?</h5>
+   <div data-role="collapsible" class="collapse" data-theme="f" data-theme-content="f" data-inset="false" data-collapsed="false">
+            <ul data-role="listview" class="info-page" data-theme="f">
+                <li>
+                <div class="section group words">
+                    <div class="col span_1_of_2">
+                        <img src="~/img/dataread-bnr.jpg" />
+                    <img src="~/img/2net.jpg" />
+                  </div>  <div class="col span_1_of_2 words">
+                        <h2>Convenience of the Internet and Bluetooth</h2>
+                        <p>All you need is the Bluetooth Hub from Qualcomm, which is a small white device which plugs into your wall outlet. Then use the Bluetooth enabled health monitoring device. Take your Blood Pressure (for example... and the readings from your BP cup will go to the Bluetooth hub, and to our FirstCareConnects database, and instantly to the patient's very own secure FirstCareConnects website page, which displays the reading from that Blood Pressure Cup...and instantly to your caregivers computers, tablets, and phones. 
+                            <br /> It's that simple, ... and the benefits hold a lot of meaning for patients and caregivers.  
+                        </p>
+                        <p>
+                            First Care Connects your vital health readings from our health monitoring blood pressure cup, weight scale, and pulse oximeter taken in your home,
+          and seamlessly transmits your vital readings through our wireless hub and internet to the people you select who care and can respond to readings that are out of normal range.
+         Because your assigned First Care Caregiver, along with your doctor and family members, will see and track your health progress, you can live a natural life "at home".  
+                        </p>
+                    </div>
+                </div>
+            </li>
+            </ul>
+       </div>
+        <div class="section group even">
+            <div class="col span_1_of_2 words">
+                <h4>Why does First Care also provide Caregivers?</h4>
+                <p>Most of our patients, just want to take the readings, and then "get on with their life". They want to live at home - longer, and let professionals worry about the Health numbers. </p><br />
+                First Care Connects also owns First Care Healthcare, which is a privately owned home healthcare agency in Springfield, Illinois.  We have been providing the best home healthcare services to patients in Central Illinois since April of 2009.  We have a great staff of licensed and experienced clinicians who take pride in providing quality care in the home.
+            </div>
+            <div class="col span_1_of_2 picx">
+                <img src="~/img/info-people-01.jpg" />
+            </div>
+        </div>
+        <div class="section group">
+            <div class="col span_1_of_2">
+            </div>
+            <div class="col span_1_of_2">
+            </div>
+        </div>
+</div><!-- /content -->
+</div><!-- /info-works -->
 
         <div data-role="panel" data-position="right" data-position-fixed="true" data-display="overlay" data-theme="b" id="nav-panel">
             <ul data-role="listview" data-theme="b" class="nav-search">
                 <li data-icon="delete"><a href="#" data-rel="close">Close menu</a></li>
-                <li><a href="./info-physicians.html" data-mini="true">Health Professionals</a></li>
-                <li><a href="./info-people.html" data-mini="true">Patients</a></li>
-                <li><a href="./info-bloodpressure.html" data-mini="true">Blood Pressure</a></li>
-                <li><a href="./info-scale.html" data-mini="true">Weight Monitoring</a></li>
-                <li><a href="./info-glucose.html" data-mini="true">Glucose Tracking</a></li>
-                <li><a href="./info-pulse.html" data-mini="true">Pulse Monitor</a></li>
-                <li><a href="./info-about.html" data-mini="true">About FirstCareConnects</a></li>
+                <li><a href="#info-physicians" data-mini="true">Health Professionals</a></li>
+                <li><a href="#info-people" data-mini="true">Patients</a></li>
+                <li><a href="#info-about" data-mini="true">About FirstCareConnects</a></li>
+                <li><a href="#info-works" data-mini="true">How it Works</a></li>
+         <!--   <li><a href="#info-bloodpressure" data-mini="true">Blood Pressure</a></li>
+                <li><a href="#info-scale" data-mini="true">Weight Monitoring</a></li>
+                <li><a href="#info-glucose" data-mini="true">Glucose Tracking</a></li>
+                <li><a href="#info-pulse" data-mini="true">Pulse Monitor</a></li>-->
+                
              <!--   <li><a href="./store-fcc.html" data-mini="true">Our Store</a></li>-->
             </ul>
-        </div>
-        <!-- /panel -->
-        <div data-role="panel" data-position="right" data-position-fixed="true" data-display="overlay" data-theme="b" id="add-form">
+        </div><!-- /panel -->
+       <!-- <div data-role="panel" data-position="right" data-position-fixed="true" data-display="overlay" data-theme="b" id="add-form">
             <form class="userform">
                 <h2>Account Login</h2>
                 <label for="name">Name</label>
@@ -154,9 +441,7 @@
                     <div class="ui-block-b"><a href="http://firstcareconnects.com/Vitals/Dashboard" data-rel="close" data-role="button" data-theme="b" data-mini="true">Save</a></div>
                 </div>
             </form>
-        </div>
-        <!-- /panel -->
-    </div>
+        </div><!-- /panel -->
 
  <script type="text/javascript">
         $(window).load(function () {
@@ -183,10 +468,10 @@
                 afterLoad: function () { } // Triggers when slider has loaded
             });
         });
-    </script>
+  </script>
     <script type="text/javascript">
-        $("#mypanel").trigger("updatelayout");
-    </script>
+    //    $("#mypanel").trigger("updatelayout");
+   </script>
 </body>
 </html>
 
