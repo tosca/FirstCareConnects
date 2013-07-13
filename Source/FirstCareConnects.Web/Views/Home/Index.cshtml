@@ -1,45 +1,192 @@
 ﻿@{
     ViewBag.Title = "Home Page";
+    Layout = null;
 }
-@section featured {
-    <section class="featured">
-        <div class="content-wrapper">
-            <hgroup class="title">
-                <h1>@ViewBag.Title.</h1>
-                <h2>@ViewBag.Message</h2>
-            </hgroup>
-            <p>
-                To learn more about ASP.NET MVC visit
-                <a href="http://asp.net/mvc" title="ASP.NET MVC Website">http://asp.net/mvc</a>.
-                The page features <mark>videos, tutorials, and samples</mark> to help you get the most from ASP.NET MVC.
-                If you have any questions about ASP.NET MVC visit
-                <a href="http://forums.asp.net/1146.aspx/1?MVC" title="ASP.NET MVC Forum">our forums</a>.
-            </p>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>First Care Connects...Remote Medical Biometric Data Monitoring</title>
+    <!-- <link rel="shortcut icon" href="/img/favicon.png">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="keywords" content="First Care Connects, Qualcomm 2net, remote health monitoring, home health monitoring" />
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css" />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="./grid-listview02.css" />
+    <link rel="stylesheet" type="text/css" href="./my.css" />
+    <link rel="stylesheet" href="./nivo-slider/themes/light/light.css" type="text/css" media="screen" /> 
+    <link rel="stylesheet" href="./nivo-slider/demo/nivo-slider.css" type="text/css" media="screen" /> 
+    <script src="http://code.jquery.com/jquery-1.10.0.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+     <script src="./nivo-slider/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+      
+</head>
+<body>
+    <!-------------- Home ------------------------------------------>
+    <div data-role="page" data-theme="f" data-title="First Care Connects- Health Monitoring Systems" class="fcc-home ui-responsive-panel" id="home" data-url="index.html">
+
+ <div data-role="header" class="fcc-header" data-theme="f">
+            <span class="fcc-logo"><a href="index.html">
+                <img src="./img/FCClogo.jpg" title="First Care Connects...Circle of Care_home page" alt="First Care Connects..."></a></span>
+            <a href="#nav-panel" class="fcc-navmenu-link" data-icon="custom" data-iconpos="notext">Navigation</a>
+            <div data-role="controlgroup" data-type="horizontal" class="ui-btn-right">
+                <a href="#add-form" class="inline-buttons" data-role="button" data-inline="true" data-theme="d">sign in</a>
+                <a href="./info-about.html" class="inline-buttons" data-role="button" data-inline="true" data-theme="d">contact</a>
+                <a href="./index.html" class="inline-buttons" data-role="button" data-inline="true" data-theme="d" data-icon="home">Home</a>
+            </div>
+</div>
+<div data-role="content" class="type-interior fcc-content">
+    <div class="slider-wrapper theme-light">
+      <div id="slider" class="nivoSlider">
+        <img src="./nivo-slider/demo/images/slide01.jpg" data-thumb="./nivo-slider/demo/images/slide01.jpg" alt="" />
+        <img src="./nivo-slider/demo/images/slide02.jpg" data-thumb="./nivo-slider/demo/images/slide02.jpg" alt="" />
+        <img src="./nivo-slider/demo/images/slide03.jpg" data-thumb="./nivo-slider/demo/images/slide03.jpg" alt="" />
+        <img src="./nivo-slider/demo/images/slide04.jpg" data-thumb="./nivo-slider/demo/images/slide04.jpg" alt="" />
+        <img src="./nivo-slider/demo/images/slide05.jpg" data-thumb="./nivo-slider/demo/images/slide05.jpg" alt="" />
+        <img src="./nivo-slider/demo/images/slide06.jpg" data-thumb="./nivo-slider/demo/images/slide06.jpg" alt="" />
+        <img src="./nivo-slider/demo/images/slide07.jpg" data-thumb="./nivo-slider/demo/images/slide07.jpg" alt="" />
+     </div>
+   </div>
+            <div class="my-page">
+                <ul data-role="listview" data-inset="true" data-theme="d">
+                   <li><a href="./info-people.html">
+                        <img src="./img/info-people.jpg" />
+                        <h2>Independent People</h2>
+                        <p>People We Care About</p>
+                        <p class="ui-li-aside">Patients ></p>
+                    </a></li>  
+                    <li><a href="./info-physicians.html">
+                        <img src="./img/info-doctor.jpg" />
+                        <h2>Physicians - Family</h2>
+                        <p>Tele-health Monitoring</p>
+                        <p class="ui-li-aside">Caregivers ></p>
+                    </a></li>
+                     <li><a href="./info-about.html">
+                        <img src="./img/info-about-01.jpg" />
+                        <h2>FCC Circle of Care</h2>
+                        <p>Contact</p>
+                        <p class="ui-li-aside">About FCC ></p>
+                    </a></li>
+                    <li><a href="./info-about.html">
+                        <img src="img/info-phone.jpg" />
+                        <h2>Healthy Connections</h2>
+                        <p>Learn more</p>
+                        <p class="ui-li-aside">How FCC Works ></p>
+                    </a></li>
+                <!--    <li><a href="./info-bloodpressure.html">
+                        <img src="./img/bp-hub.jpg" />
+                        <h2>Blood Pressure in Check</h2>
+                        <p>BP cuff sends your data</p>
+                        <p class="ui-li-aside">Blood Pressure</p>
+                    </a></li>
+                     <li><a href="./info-scale.html">
+                        <img src="./img/wtscale.png" />
+                        <h2>Step on your own Scale</h2>
+                        <p>Remote Weight Monitor</p>
+                        <p class="ui-li-aside">Weight</p>
+                    </a></li>
+                    <li><a href="./info-glucose.html">
+                        <img src="./img/glucose.jpg" />
+                        <h2>Glucose Blood Sugar</h2>
+                        <p>Monitor Glucose Remotely</p>
+                        <p class="ui-li-aside">Glucose</p>
+                    </a></li>
+                    <li><a href="./info-pulse.html">
+                        <img src="./img/nonninPulse.png" />
+                        <h2>What is your Pulse</h2>
+                        <p>Remote Pulse Oximeter</p>
+                        <p class="ui-li-aside">Pulse</p>
+                    </a></li>-->
+                    <!--<li><a href="./store-fcc.html">
+                        <img src="./img/wt-bp-pul-hub.png" />
+                        <h2>Products & Caregivers</h2>
+                        <p>Purchase or Lease </p>
+                        <p class="ui-li-aside">Store</p>
+                    </a></li>-->
+                </ul>
+            </div>
+
         </div>
-    </section>
-}
-<h3>We suggest the following:</h3>
-<ol class="round">
-    <li class="one">
-        <h5>Getting Started</h5>
-        ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-        enables a clean separation of concerns and that gives you full control over markup
-        for enjoyable, agile development. ASP.NET MVC includes many features that enable
-        fast, TDD-friendly development for creating sophisticated applications that use
-        the latest web standards.
-        <a href="http://go.microsoft.com/fwlink/?LinkId=245151">Learn more…</a>
-    </li>
+        <!-- /content -->
 
-    <li class="two">
-        <h5>Add NuGet packages and jump-start your coding</h5>
-        NuGet makes it easy to install and update free libraries and tools.
-        <a href="http://go.microsoft.com/fwlink/?LinkId=245153">Learn more…</a>
-    </li>
+        <div data-role="panel" data-position="right" data-position-fixed="true" data-display="overlay" data-theme="b" id="nav-panel">
+            <ul data-role="listview" data-theme="b" class="nav-search">
+                <li data-icon="delete"><a href="#" data-rel="close">Close menu</a></li>
+                <li><a href="./info-physicians.html" data-mini="true">Health Professionals</a></li>
+                <li><a href="./info-people.html" data-mini="true">Patients</a></li>
+                <li><a href="./info-bloodpressure.html" data-mini="true">Blood Pressure</a></li>
+                <li><a href="./info-scale.html" data-mini="true">Weight Monitoring</a></li>
+                <li><a href="./info-glucose.html" data-mini="true">Glucose Tracking</a></li>
+                <li><a href="./info-pulse.html" data-mini="true">Pulse Monitor</a></li>
+                <li><a href="./info-about.html" data-mini="true">About FirstCareConnects</a></li>
+             <!--   <li><a href="./store-fcc.html" data-mini="true">Our Store</a></li>-->
+            </ul>
+        </div>
+        <!-- /panel -->
+        <div data-role="panel" data-position="right" data-position-fixed="true" data-display="overlay" data-theme="b" id="add-form">
+            <form class="userform">
+                <h2>Account Login</h2>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="acct-name" value="" data-clear-btn="true" data-mini="true">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="acct-email" value="" data-clear-btn="true" data-mini="true">
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="acct-password" value="" data-clear-btn="true" autocomplete="off" data-mini="true">
 
-    <li class="three">
-        <h5>Find Web Hosting</h5>
-        You can easily find a web hosting company that offers the right mix of features
-        and price for your applications.
-        <a href="http://go.microsoft.com/fwlink/?LinkId=245157">Learn more…</a>
-    </li>
-</ol>
+                <div class="ui-grid-a">
+                    <div class="ui-block-a"><a href="#" data-rel="close" data-role="button" data-theme="b" data-mini="true">Cancel</a></div>
+                    <div class="ui-block-b" data-theme="e"><a href="http://firstcareconnects.com/Vitals/Dashboard" data-role="button" data-theme="e" data-mini="true">Save</a></div>
+                </div>
+            </form>
+            <form class="userform">
+                <h2>Create new user</h2>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" value="" data-clear-btn="true" data-mini="true">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="status" value="" data-clear-btn="true" data-mini="true">
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" value="" data-clear-btn="true" autocomplete="off" data-mini="true">
+
+                <div class="ui-grid-a">
+                    <div class="ui-block-a"><a href="#" data-rel="close" data-role="button" data-theme="b" data-mini="true">Cancel</a></div>
+                    <div class="ui-block-b"><a href="http://firstcareconnects.com/Vitals/Dashboard" data-rel="close" data-role="button" data-theme="b" data-mini="true">Save</a></div>
+                </div>
+            </form>
+        </div>
+        <!-- /panel -->
+    </div>
+
+ <script type="text/javascript">
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                effect: 'fade', // Specify sets like: 'fold,fade,sliceDown'
+                slices: 15, // For slice animations
+                boxCols: 8, // For box animations
+                boxRows: 4, // For box animations
+                animSpeed: 500, // Slide transition speed
+                pauseTime: 9000, // How long each slide will show
+                startSlide: 0, // Set starting Slide (0 index)
+                directionNav: true, // Next & Prev navigation
+                controlNav: true, // 1,2,3... navigation
+                controlNavThumbs: false, // Use thumbnails for Control Nav
+                pauseOnHover: true, // Stop animation while hovering
+                manualAdvance: false, // Force manual transitions
+                prevText: 'Prev', // Prev directionNav text
+                nextText: 'Next', // Next directionNav text
+                randomStart: false, // Start on a random slide
+                beforeChange: function () { }, // Triggers before a slide transition
+                afterChange: function () { }, // Triggers after a slide transition
+                slideshowEnd: function () { }, // Triggers after all slides have been shown
+                lastSlide: function () { }, // Triggers when last slide is shown
+                afterLoad: function () { } // Triggers when slider has loaded
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        $("#mypanel").trigger("updatelayout");
+    </script>
+</body>
+</html>
+
