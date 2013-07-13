@@ -1,0 +1,820 @@
+﻿/** {
+     Universal reset: 
+    margin: 0;
+    padding: 0;
+}*/
+header, nav, section, article, aside, footer {
+   display:block;
+}
+html {
+    background: #f1f2f3;
+}
+body {
+ font-family: 'Open Sans', sans-serif;
+ font-weight: 300; 
+}
+.ui-overlay-f {
+background: #f1f2f3;
+background: #f5f4f4;
+}
+.ui-li, .ui-li-static.ui-li {
+padding: 0;
+}
+.ui-li-desc {
+    margin:-.5em 1em .6em 0;
+}
+.ui-page {
+    background:#fff;
+    border: 2px solid #004873;
+}
+.ui-page .ui-content .ui-listview .ui-li-desc,
+.ui-page .ui-content .ui-listview .ui-li-heading{
+    white-space : normal;
+    overflow: visible;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1 {font-size:3.2em;font-weight:300; }
+p { color:#004873;margin-bottom: 4em}/*blue*/
+h1 {color: #fff;}
+h2 {color: #40903a;}/*green*/
+h3 {color: #f9980f;}/*orange*/
+h4 {
+    color: #004873;/*blue*/
+   /* font-size: 1.5em;*/
+    text-shadow: none;
+}
+h5 { 
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #40903a;
+   font-size: 1.7em;
+    line-height: 0.8;
+    margin: 0.3em 0 1.2em 1%;
+}
+h6 {color:#c41111;
+    font-size: 30px;
+}
+/* Link to the Google webfont is in the head */
+.my-store .ui-title, .my-store .ui-li-aside,
+.my-patients ,ui-title, .my-patients ,ui-li-aside {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+/* Header */
+.ui-header {
+   /* height: 70px;*/
+}
+.fcc-header {
+	background: #fff;
+	border-bottom: 1px solid #e0e0e0;
+	color: #004873;
+    padding: 0;
+	}
+.fcc-header.ui-header-fixed:not(.ui-fixed-hidden) {
+	padding-top: 0;
+}
+.ui-header .ui-title {
+    text-align: left;
+}
+/* Logo */
+.fcc-header .fcc-logo a {
+	display: inline-block;
+	text-decoration: none;
+	min-height: 40px;
+}
+.fcc-header .fcc-logo img {
+	display:inline-block;
+	margin-left:10px;
+	width: 130px;
+	height: auto;
+}
+/* Header buttons */
+.inline-buttons{ 
+    display: inline-block; 
+    margin: 0;
+	color: #004873;
+    padding: 0;
+}
+.inline-buttons .ui-btn.inner{
+    font-size:10px;
+}
+.fcc-header > .ui-btn {
+    color: #004873;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+}
+.ui-header .ui-btn-inner {
+    overflow: visible;
+    font-size: 11px;
+    padding: .6em 5px;
+    text-overflow: clip;
+}
+.fcc-header > .ui-btn,
+.fcc-header.ui-header-fixed.ui-fixed-hidden > .ui-btn-icon-notext {
+	/*top: 1.1em;*/
+}
+.fcc-header .fcc-navmenu-link {
+  margin-left: 40%;
+}
+.fcc-header .fcc-signin-link {
+    margin-left: 84%;
+}
+/******  info-pages *****/ 
+ul li .bullets {
+       list-style:square;
+       font-size:1.2em;
+       font-weight: 400;
+       margin: 0.3em 0 0.4em 1%;
+    }
+ul li .bullets span {
+    font-weight: 700;
+}
+p.ui-li-desc {
+    margin: 0.5em 0;
+}
+ol li, ul li {
+     font-size:0.9em;
+     font-weight: 500;
+     margin: 0.3em 0.5em 1.2em 1%;
+}
+ul ul {
+    color: #20629f;
+}
+.words p .ui-li-desc {
+    margin: 0.5em;
+}
+.ui-header .fcc-header .fcc-contact {
+    position: absolute;
+    float: right;
+    margin-top: 0;
+    color: #004873;
+}
+.fcc-header > .ui-btn,
+.fcc-header > .ui-btn .ui-btn-inner {
+	border: none;
+	background: none;
+    padding: 3px;
+
+}
+.fcc-header > .ui-btn,
+.fcc-header > .ui-btn .ui-icon {
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+/* Custom icons */
+.ui-icon-custom {
+	background-image: url(img/icon-nav.png);
+	background-color: transparent;
+    background-size: 90%;
+	margin: 0;
+    width: 36px;
+    height: 36px;
+}
+.fcc-header .fcc-navmenu-link .ui-icon {
+	background-position: 0px 25%;
+    float:left;
+}
+.fcc-header .fcc-signin-link .ui-icon {
+	background-position: 0 2%;
+}
+/* HD/Retina icon sprite */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.3),
+       only screen and (min--moz-device-pixel-ratio: 1.3),
+       only screen and (min-resolution: 200dpi) {
+	.jqm-header > .ui-btn .ui-icon {
+		background-image: url(img/icon-nav.png);
+		-webkit-background-size: 131px 31px;
+		-moz-background-size: 131px 31px;
+		-o-background-size: 131px 31px;
+		background-size: 131px 31px;
+	}
+}
+
+    .Red {
+        background-color: #c41111;
+    }
+
+    .Blue {
+        background-color: #03579f;
+    }
+
+    .Green {
+        background-color: #47d03d;
+    }
+
+    .Brown {
+        background-color: #c07916;
+    }
+
+    .Yellow {
+        background-color: #ffd400;
+    }
+     .Orange {
+        background-color: #f9980f;
+    }
+/****** desktop *********/
+    @media only screen and (min-width: 1024px) {
+        .ui-page {
+            width: 1000px !important;
+            margin: 0 auto !important;
+            position: relative !important;
+        }
+        .ui-footer {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        .ui-header {
+            max-width: 1000px;
+            margin: 0 auto;
+            height: auto;
+        }
+    }
+    /* stack all grids below 40em for phone (640px)*/
+    @media all and (max-width: 35em) {
+        .ui-grid-a .ui-block-a,
+        .ui-grid-a .ui-block-b,
+        .ui-grid-a .ui-block-c,
+        .ui-grid-a .ui-block-d,
+        .ui-grid-a .ui-block-e {
+            width: 100%;
+            clear: left;
+        }
+    }
+
+    @media \0screen {
+        img {
+            width: auto; /*for ie 8 */
+        }
+    }
+    /***** grid-listview *******/
+    .ui-li-desc {
+        overflow: visible;
+    }
+    .ui-li-desc.ui-li-aside {
+            color: #40903a;
+        }
+    .ui-li-heading {
+        overflow: visible;
+        font-size: 1.3em;
+        font-weight:300;
+    }
+    .my-page .ui-input-search {
+        width: 50px;
+        display: inline-block;
+    }
+    .my-center-align {
+        margin-right: 33%;
+        text-align: right;
+    }
+    .ui-controlgroup, fieldset.ui-controlgroup {
+        padding: 5px 0 0 0;
+    }
+    /*********  /HistoryGrid  ********/
+
+.history-grid {
+    color: #004873;
+    width: 100%;
+    border:4px solid #c41111;
+    margin-top: 3%; 
+}
+.history-grid tbody{
+    width:10%;
+    font-size: 0.9em;
+    padding: 1%; 
+}
+.history-grid tbody tr td{
+   text-align: center;
+    font-size: 0.9em;
+    padding: 1%; 
+}
+    .history-grid caption {
+        font-size: 1.3em;
+    }
+    /*********  /dataread  ********/
+    .my-grid-a .ui-bar my-grid-read {
+        margin: 11px 7%;
+        padding: 1.2em 1em 1em 1em;
+        border: none;
+        height: auto;
+        width: 185px;
+        min-width: 185px;
+    }
+    .my-grid-read .ui-block-a {
+        float: right;
+        width: 100%;
+        margin-top: 17px;
+    }
+    /*****span tag for bp readubg******/
+    .my-grid-read span {
+        color: #e58125;
+        color: #f9980f;
+        color: #f9b50f;
+        color: #c41111;
+        font-size: 1.4em;
+        font-weight: 800;
+        padding: 0 3px;
+        text-shadow: none;
+    }
+    .my-grid-read span.date {
+        font-size: 1em;
+        font-weight: 500;
+    }
+    .my-grid-read .red-border .ui-listview,
+     .red-border .ui-listview .ui-li.ui-btn-inner {
+        border-color: #c41111;
+    }
+    /*  SECTIONS  */
+.ui-listview .info-page .ui-heading,
+.ui-listview .info-page .ui-desc {
+    padding: 0;
+}
+    .section {
+        clear: both;
+        padding: 0;
+        margin: 0px;
+    }
+    .fcc-content .section .ui-li, .fcc-content .section .ui-li.ui-field-contain {
+        border-top-width: 0;
+    }
+ .picx {
+        text-align: center;
+        margin-top: 2em;
+        height: auto; /* To keep aspect ratio. */
+        max-width: 100%;
+        max-height: none;
+}
+ /******** Section Group *******/
+.section .words {
+    margin-top: 1% 0.7em; 
+    letter-spacing: 0.8px;
+    
+}
+.section .words h4{
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.5em;
+} 
+.section.group.even{
+    background: #f7f8f9;
+}
+    /******  COLUMN SETUP  *****/
+    .col {
+        display: block;
+        float: left;
+        padding: 1%;
+        margin: 1% 1% 1% 1%;
+    }   
+     .col img {
+            margin: 0 0 0 20%;
+        }
+       .wide img {
+            margin: 0 0 0 12%;
+        } 
+        /******* grid of three *****/
+        .col:first-child {
+            margin-left: 0;
+        }
+
+    span._1_of_3 {
+        width: 100%;
+    }
+
+    span._1_of_3 {
+        width: 66.1%;
+    }
+
+    .span_1_of_3 {
+        width: 32.2%;
+    }
+    /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+    @media only screen and (max-width: 320px) {
+        .span_3_of_3 {
+            width: 100%;
+        }
+
+        .span_2_of_3 {
+            width: 100%;
+        }
+
+        .span_1_of_3 {
+            width: 100%;
+        }
+         .picx {
+        text-align: center;
+        margin-top: 0;
+        height: auto; /* To keep aspect ratio. */
+        max-width: 30%;
+}
+    }
+
+    .col:first-child {
+       /*padding-left: 10px;*/ 
+    }
+
+    span._2_of_2 {
+        width: 100%;
+    }
+
+    .span_1_of_2 {
+        width: 45%;
+    }
+    /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+    @media only screen and (max-width: 480px) {
+        .span_2_of_2 {
+            width: 100%;
+        }
+
+        .span_1_of_2 {
+            width: 100%;
+        }
+    }
+    /*  GROUPING */
+    .group:before,
+    .group:after {
+        content: "";
+        display: table;
+        margin: 0;
+    }
+    .group:after {
+        clear: both;
+    }
+    /****** patient-info *******/
+
+    .pat-info{
+        max-width: 400px;
+        margin-left: 5%;
+    }
+    /******** info-pages ***********/
+.collapse .ui-collapsible-heading {
+    background-image:url('img/gradorange.png');
+    background-repeat: repeat-x;
+}
+.collapse span.ui-btn-text {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+        font-size: 1em;
+        color: #004873;
+        text-decoration: none; 
+    }
+.collapse a:link {
+        font-family: 'Open Sans', sans-serif;
+        color: #004873;
+        text-decoration: none;
+}
+.collapse words img {
+    margin-top: 100px;
+    text-align: right;
+}
+.collapse h4 {
+    font-size:1em;
+}
+/* #### Mobile Phones Portrait or Landscape #### */
+@media screen and (max-device-width: 640px) {
+    .info-page h4 {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
+        font-size:1.5em; 
+    }
+}
+    /******store*******/
+    .my-info .ui-li.ui-btn,
+    .my-info .ui-li.ui-btn-inner {
+        display: block;
+        padding: 0;
+        height: 180px;
+    }
+    .my-info .ui-li-desc,
+    .my-info .ui-li-heading {
+        margin-left: 100px;
+    }
+    .my-info .ui-li-desc {
+        font-size: 0.9em;
+    }
+    .my-info .ui-li-aside {
+        width: 160px;
+        text-align: left;
+        margin: 90px 20px 0 0;
+        height: auto;
+    }
+    .my-info p.ui-li-aside {
+        color: #fff;
+        background: #40903a;
+        padding: 7px;
+    }
+
+    .my-info .ui-li-thumb {
+        width: 100%;
+        height: auto;
+        max-height: 160px;
+        max-width: 160px;
+        margin: 10px 1%;
+    }
+    /* First breakpoint is 768px. iPad. 3 column layout. Tiles 250x250 pixels at the breakpoint. */
+    @media all and (min-width: 768px) {
+        .my-store .ui-content {
+            padding: 9px;
+        }
+        .collapse .wide img {
+            width: 90%;
+            margin: 0 5%;
+           }  
+            .collapse img {
+            width: 60%;
+            margin: 0 5%;
+        }
+    }
+
+    .my-store .ui-listview .ui-btn-inner,
+    .my-store .ui-listview .ui-btn-text,
+    .my-store .ui-listview .ui-link-inherit,
+    .my-store .ui-listview .ui-li-thumb {
+        width: 100%;
+        height: 100%;
+        display: block;
+        overflow: hidden;
+    }
+
+    /*******Checkins***********/
+    /* Show priority 1 at 320px (20em x 16px) */
+    @media all and (min-width: 20em) {
+        th.ui-table-priority-2,
+        td.ui-table-priority-1 {
+            display: table-cell;
+        }
+    }
+    /* Show priority 2 at 480px (30em x 16px) */
+    @media screen and (min-width: 30em) {
+        .my-pat-table th.ui-table-priority-2,
+        .my-pat-table td.ui-table-priority-2 {
+            display: table-cell;
+        }
+    }
+    /* Manually hidden */
+    .my-pat-table th.ui-table-cell-hidden,
+    .my-pat-table td.ui-table-cell-hidden {
+        display: none;
+    }
+
+    /* Manually shown */
+    .my-pat-table th.ui-table-cell-visible,
+    .my-pat-table td.ui-table-cell-visible {
+        display: table-cell;
+    }
+
+    /*******Sliding panels***********/
+    .nav-search .ui-btn-up-a {
+        background-image: none;
+        background-color: #333;
+    }
+
+    .nav-search .ui-btn-inner {
+        border-top: 1px solid #888;
+        border-color: rgba(255, 255, 255, .1);
+    }
+
+    .nav-search .ui-btn.ui-first-child {
+        border-top-width: 0;
+        background: #111;
+    }
+
+    @media only screen and (max-width: 480px) {
+        p {
+            font-size: 0.65em;
+        }
+
+        h1 {
+            font-size: 1.2em;
+        }
+
+        h2 {
+            font-size: 0.9em;
+        }
+
+        h3 {
+            font-size: smaller;
+        }
+
+        h4 {
+            font-size: 0.8em;
+        }
+
+        h5 {
+          font-size: 1.4em;
+          line-height: 0.8em;
+        }
+        .ui-btn-inner {
+            padding: 4px;
+            font-size: 11px;
+        }
+        .collapse img {
+            width: 10em;
+        }
+        .collapse .wide img {
+            width: 20em;
+        }
+    }
+
+    .nav-search .ui-btn-up-a {
+        background-image: none;
+        background-color: #333333;
+    }
+
+    .nav-search .ui-btn-inner {
+        border-top: 1px solid #888;
+        border-color: rgba(255, 255, 255, .1);
+    }
+
+    .nav-search .ui-btn.ui-first-child {
+        border-top-width: 0;
+        background: #111;
+    }
+.ui-panel-inner {
+    padding: -15px 3px;
+}  
+.ui-panel-content-fixed-toolbar-position-left.ui-panel-content-fixed-toolbar-open,
+ .ui-panel-content-wrap-position-left.ui-panel-content-wrap-open,
+ .ui-panel-dismiss-position-left.ui-panel-dismiss-open {
+    right: 0;
+    left: 0;
+}
+    .ui-responsive-panel .userform {
+        padding: .8em 1.2em;
+        border-bottom:1px solid #e0e0e0;
+    }
+
+        .ui-responsive-panel .userform h2 {
+            color: #40903a;
+            font-size: 1.2em;
+            margin: 0.3em 0 .8em 0;
+            padding: 0 0 .5em 0;
+            border-bottom: 1px solid rgba(0,0,0,.1);
+        }
+
+        .ui-responsive-panel .userform label {
+            display: block;
+            margin-top: 1.2em;
+        }
+
+    .ui-responsive-panel .switch .ui-slider-switch {
+        width: 6.5em !important;
+    }
+
+    .ui-responsive-panel .userform .ui-grid-a {
+        margin-top: 1em;
+        padding-top: .8em;
+        margin-top: 1.4em;
+        border-top: 1px solid rgba(0,0,0,.1);
+    }
+
+@media (min-width:35em){
+
+/* wrap on wide viewports once open */
+
+.ui-responsive-panel.ui-page-panel-open .ui-panel-content-fixed-toolbar-display-push.ui-panel-content-fixed-toolbar-position-left,
+.ui-responsive-panel.ui-page-panel-open .ui-panel-content-fixed-toolbar-display-reveal.ui-panel-content-fixed-toolbar-position-left,
+.ui-responsive-panel.ui-page-panel-open .ui-panel-content-wrap-display-push.ui-panel-content-wrap-position-left,
+.ui-responsive-panel.ui-page-panel-open .ui-panel-content-wrap-display-reveal.ui-panel-content-wrap-position-left {
+    margin-right: 17em;
+}
+.ui-responsive-panel.ui-page-panel-open .ui-panel-content-fixed-toolbar-display-push.ui-panel-content-fixed-toolbar-position-right,
+.ui-responsive-panel.ui-page-panel-open .ui-panel-content-fixed-toolbar-display-reveal.ui-panel-content-fixed-toolbar-position-right,
+.ui-responsive-panel.ui-page-panel-open .ui-panel-content-wrap-display-push.ui-panel-content-wrap-position-right,
+.ui-responsive-panel.ui-page-panel-open .ui-panel-content-wrap-display-reveal.ui-panel-content-wrap-position-right {
+    margin-left: 17em;
+}
+.ui-responsive-panel.ui-page-panel-open .ui-panel-content-fixed-toolbar-display-push,
+.ui-responsive-panel.ui-page-panel-open .ui-panel-content-fixed-toolbar-display-reveal {
+    width: auto;
+}
+
+/* disable "dismiss" on wide viewports */
+.ui-responsive-panel .ui-panel-dismiss-display-push {
+    display: none;
+}
+
+}
+/* Responsive - header, content & footer - iPad */
+@media all and (min-width:46em) {
+    /* Logo */
+    .fcc-header h1.fcc-logo {
+        text-align: left;
+        margin: .5em 0 0 8%;
+    }
+
+    .fcc-header .fcc-logo a {
+       min-height: 57px;
+    }
+
+    .fcc-header .fcc-logo img {
+        display: block;
+        width: 190px;
+        height: auto;
+    }
+
+    .fcc-home .fcc-header .fcc-logo img {
+        display: inline-block;
+    }
+    /* Header buttons */
+    .fcc-header > .ui-btn,
+    .fcc-header.ui-header-fixed.ui-fixed-hidden > .ui-btn-icon-notext {
+        top: 1.1em;
+    }
+    h1.fcc-header .ui-title {
+        text-align:left;
+    }
+.fcc-header .fcc-navmenu-link {
+        width: 35px;
+        height: 35px;
+    }
+
+    .fcc-header .fcc-signin-link {
+        display: inline-block;
+    }
+    .ui-icon-custom {
+    background-size: 90%;
+    width: 44px;
+    height: 44px;
+}
+
+    .ui-page .ui-content h5 {
+        font-size: 2.5em;
+        text-align: center;
+    }
+
+    .ui-page .fcc-content p {
+        font-size: 1.1em;
+        padding: .25em .3em;
+    }
+   
+    .fcc-content .section img {
+        margin: 10% 0 0 30%;
+    }
+    .fcc-content .section .wide img {
+        margin: 20% 0 0 10%;
+    }
+    .collapse span.ui-btn-text {
+        font-size: 1.7em;
+    }
+}
+    /* Global nav panel close button (instead of toggle menu bars / close icon on small screens) */
+    .ui-panel-content-fixed-toolbar-position-left.ui-panel-content-fixed-toolbar-open.fcc-header::after,
+    .ui-panel-content-wrap-position-left.ui-panel-content-wrap-open .fcc-header::after {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 8px;
+        left: 8px;
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+        /*background-image: url(img/icon-nav.png);*/
+        background-position: -33px 50%;
+        -webkit-background-size: 85px 20px;
+        -moz-background-size: 85px 20px;
+        -o-background-size: 85px 20px;
+        background-size: 85px 20px;
+    }
+    /**** paragraph ******/
+    .fcc-content ul:not(.ui-listview) {
+        margin: 0;
+        padding-left: 1.3em;
+    }
+    /* Responsive - content */
+    @media all and (min-width:46em) {
+        .fcc-home .fcc-content {
+          /*   padding: 10px 0 4.5em 0; padding bottom is because of footer position absolute */
+        }
+
+            .fcc-home .fcc-content.fcc-fullwidth {
+                padding: 15px;
+            }
+         .fcc-content p.fcc-content {
+            font-size: 1.1em;
+        }
+        /* Homepage */
+        .fcc-home .fcc-home-welcome {
+            float: left;
+            width: 48%;
+            padding-right: 6%;
+            margin-top: .4em;
+        }
+
+        .fcc-home .fcc-home-list {
+            float: left;
+            width: 45%;
+        }
+
+        .fcc-home h2.fcc-home-widget {
+            clear: left;
+            padding-top: 2em;
+        }
+    }
+
+

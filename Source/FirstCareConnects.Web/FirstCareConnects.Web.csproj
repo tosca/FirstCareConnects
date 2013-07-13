@@ -177,6 +177,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\grid-listview02.css" />
+    <Content Include="Content\my.css" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
@@ -233,6 +235,102 @@
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="img\2net.jpg" />
+    <Content Include="img\alertscreen.jpg" />
+    <Content Include="img\bloodPressure.jpg" />
+    <Content Include="img\bloodPressure.png" />
+    <Content Include="img\bp-hub.jpg" />
+    <Content Include="img\bp-hub.png" />
+    <Content Include="img\circle-bloodpressure.jpg" />
+    <Content Include="img\circle-glucose.jpg" />
+    <Content Include="img\circle-people.jpg" />
+    <Content Include="img\circle-pulse.jpg" />
+    <Content Include="img\circle-scale.jpg" />
+    <Content Include="img\circlebannr.jpg" />
+    <Content Include="img\circlebannr.png" />
+    <Content Include="img\dataread-bnr.jpg" />
+    <Content Include="img\docphone.png" />
+    <Content Include="img\docPullhair.png" />
+    <Content Include="img\FCCbnr-reading.jpg" />
+    <Content Include="img\FCClogo.jpg" />
+    <Content Include="img\FCClogo20.png" />
+    <Content Include="img\FCClogo50.jpg" />
+    <Content Include="img\FCClogo60.jpg" />
+    <Content Include="img\FCClogo70.jpg" />
+    <Content Include="img\FCClogoOLD70.jpg" />
+    <Content Include="img\FCConnectLogo02.png" />
+    <Content Include="img\FChomebnr.jpg" />
+    <Content Include="img\FirstCareLogo.jpg" />
+    <Content Include="img\girlsPost.png" />
+    <Content Include="img\glucose-01.jpg" />
+    <Content Include="img\glucose-02.jpg" />
+    <Content Include="img\glucose-03.jpg" />
+    <Content Include="img\glucose.jpg" />
+    <Content Include="img\gradOrange.png" />
+    <Content Include="img\grandson.jpg" />
+    <Content Include="img\icon-nav.png" />
+    <Content Include="img\info-about-01.jpg" />
+    <Content Include="img\info-biker.jpg" />
+    <Content Include="img\info-bp-01.jpg" />
+    <Content Include="img\info-bp-02.jpg" />
+    <Content Include="img\info-caregiver-01.jpg" />
+    <Content Include="img\info-doc-01.jpg" />
+    <Content Include="img\info-doctor.jpg" />
+    <Content Include="img\info-mary.jpg" />
+    <Content Include="img\info-people-01.jpg" />
+    <Content Include="img\info-people.jpg" />
+    <Content Include="img\info-phone.jpg" />
+    <Content Include="img\info-picnic.jpg" />
+    <Content Include="img\info-running.jpg" />
+    <Content Include="img\info-scale-01.jpg" />
+    <Content Include="img\justCircle.png" />
+    <Content Include="img\nonninPulse.png" />
+    <Content Include="img\pulse-01.jpg" />
+    <Content Include="img\pulse-02.jpg" />
+    <Content Include="img\ride-bike.jpg" />
+    <Content Include="img\roger.png" />
+    <Content Include="img\storeProd.png" />
+    <Content Include="img\wt-bp-pul-hub.png" />
+    <Content Include="img\wt-hub.png" />
+    <Content Include="img\wtscale.png" />
+    <Content Include="nivo-slider\demo\demo.html" />
+    <Content Include="nivo-slider\demo\images\bpbanner.jpg" />
+    <Content Include="nivo-slider\demo\images\FCCbundle_product.png" />
+    <Content Include="nivo-slider\demo\images\FCsshow40.jpg" />
+    <Content Include="nivo-slider\demo\images\FCsshow41.jpg" />
+    <Content Include="nivo-slider\demo\images\FCsshow42.jpg" />
+    <Content Include="nivo-slider\demo\images\FCsshow43.jpg" />
+    <Content Include="nivo-slider\demo\images\FCsshow44.jpg" />
+    <Content Include="nivo-slider\demo\images\myreadbnr.jpg" />
+    <Content Include="nivo-slider\demo\images\slide01.jpg" />
+    <Content Include="nivo-slider\demo\images\slide02.jpg" />
+    <Content Include="nivo-slider\demo\images\slide03.jpg" />
+    <Content Include="nivo-slider\demo\images\slide04.jpg" />
+    <Content Include="nivo-slider\demo\images\slide05.jpg" />
+    <Content Include="nivo-slider\demo\images\slide06.jpg" />
+    <Content Include="nivo-slider\demo\images\slide07.jpg" />
+    <Content Include="nivo-slider\demo\nivo-slider.css" />
+    <Content Include="nivo-slider\demo\scripts\jquery-1.9.0.min.js" />
+    <Content Include="nivo-slider\demo\style.css" />
+    <Content Include="nivo-slider\jquery.nivo.slider.js" />
+    <Content Include="nivo-slider\jquery.nivo.slider.pack.js" />
+    <Content Include="nivo-slider\license.txt" />
+    <Content Include="nivo-slider\themes\bar\arrows.png" />
+    <Content Include="nivo-slider\themes\bar\bar.css" />
+    <Content Include="nivo-slider\themes\bar\bullets.png" />
+    <Content Include="nivo-slider\themes\bar\loading.gif" />
+    <Content Include="nivo-slider\themes\dark\arrows.png" />
+    <Content Include="nivo-slider\themes\dark\bullets.png" />
+    <Content Include="nivo-slider\themes\dark\dark.css" />
+    <Content Include="nivo-slider\themes\dark\loading.gif" />
+    <Content Include="nivo-slider\themes\default\arrows.png" />
+    <Content Include="nivo-slider\themes\default\bullets.png" />
+    <Content Include="nivo-slider\themes\default\default.css" />
+    <Content Include="nivo-slider\themes\default\loading.gif" />
+    <Content Include="nivo-slider\themes\light\arrows.png" />
+    <Content Include="nivo-slider\themes\light\bullets.png" />
+    <Content Include="nivo-slider\themes\light\light.css" />
+    <Content Include="nivo-slider\themes\light\loading.gif" />
     <Content Include="Scripts\jquery-1.7.1-vsdoc.js" />
     <Content Include="Scripts\jquery-1.7.1.js" />
     <Content Include="Scripts\jquery-1.7.1.min.js" />
@@ -257,9 +355,8 @@
     </Content>
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\_references.js" />
-    <Content Include="Images\accent.png" />
-    <Content Include="Images\bullet.png" />
-    <Content Include="Images\heroAccent.png" />
+    <Content Include="img\bullet.png" />
+    <Content Include="img\heroAccent.png" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Account\_ChangePasswordPartial.cshtml" />
     <Content Include="Views\Account\_ExternalLoginsListPartial.cshtml" />
@@ -283,6 +380,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="nivo-slider\.DS_Store" />
+    <Content Include="nivo-slider\demo\.DS_Store" />
+    <Content Include="nivo-slider\demo\images\.DS_Store" />
+    <Content Include="nivo-slider\demo\scripts\.DS_Store" />
+    <Content Include="nivo-slider\README" />
+    <Content Include="nivo-slider\themes\.DS_Store" />
+    <Content Include="nivo-slider\themes\dark\.DS_Store" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
