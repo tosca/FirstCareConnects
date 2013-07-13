@@ -14,6 +14,10 @@ namespace FirstCareConnects.Controllers
 
             return View();
         }
+        public ActionResult Recent()
+        { 
+            return View();
+        }
 
         public ActionResult About()
         {

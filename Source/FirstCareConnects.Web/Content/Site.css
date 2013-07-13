@@ -203,6 +203,28 @@ ul#menu {
             color: #333;
             text-decoration: none;
         }
+/*  Recent Listview*/
+.Readings li {
+    border: 2px solid #c41111;
+    font-size: 1.3em;
+    font-weight: 600;
+    margin: 0.3em;
+    padding: 1em;
+}
+.Readings .device {
+    width: 2em;
+    color:#13598b;
+    margin-right: 10px;
+}
+.Readings .info {
+    color:#c41111;
+    font-size: 1.5em;
+}
+.Readings span .date {
+    color:#c41111;
+    color:#13598b;
+    font-size: 1em;
+}
 
 
 /* page elements
