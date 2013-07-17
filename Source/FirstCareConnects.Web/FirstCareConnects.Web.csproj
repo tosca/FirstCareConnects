@@ -245,6 +245,7 @@
     <Content Include="img\circle-people.jpg" />
     <Content Include="img\circle-pulse.jpg" />
     <Content Include="img\circle-scale.jpg" />
+    <Content Include="img\circlebannr-04.jpg" />
     <Content Include="img\circlebannr.jpg" />
     <Content Include="img\circlebannr.png" />
     <Content Include="img\dataread-bnr.jpg" />
@@ -301,6 +302,7 @@
     <Content Include="nivo-slider\demo\images\FCsshow43.jpg" />
     <Content Include="nivo-slider\demo\images\FCsshow44.jpg" />
     <Content Include="nivo-slider\demo\images\myreadbnr.jpg" />
+    <Content Include="nivo-slider\demo\images\slide00.jpg" />
     <Content Include="nivo-slider\demo\images\slide01.jpg" />
     <Content Include="nivo-slider\demo\images\slide02.jpg" />
     <Content Include="nivo-slider\demo\images\slide03.jpg" />
